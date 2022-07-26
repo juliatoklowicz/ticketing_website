@@ -1,0 +1,91 @@
+body {
+    background-color: #e0e0e0;
+}
+
+h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+strong {
+    color: #2493df;
+}
+
+footer {
+    color: #595959;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#buy {
+    background-color: #969d9d;
+    margin: 10px;
+    color: #fcfcfc;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: square;
+    list-style-position: inside;
+    padding-left: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #2493df;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 2px;
+    text-align: center;
+    width: 50px;
+}
+
+input[type="button"] {
+    background-color: #2493df;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    height: 80%;
+    width: 100%;
+}
+
+
+.form-section {
+    flex: 1;
+    margin: 10px;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
